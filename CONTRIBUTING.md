@@ -24,7 +24,7 @@ Please keep changes aligned with the current positioning of the repository.
 
 ## Collector Changes
 
-When adding or changing a collector in [`gcp_inventory.py`](/abs/path/C:/Users/Trabalho/Documents/repositorios/pessoal/documentation-gcp-services/gcp_inventory.py:1):
+When adding or changing a collector in [`gcp_inventory.py`](./gcp_inventory.py):
 
 - follow the existing section and table conventions
 - return useful output even when a service is disabled or inaccessible

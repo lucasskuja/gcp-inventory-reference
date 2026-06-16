@@ -14,7 +14,7 @@ It is intended to be useful as:
 
 ## What It Currently Does
 
-The repository centers on [`gcp_inventory.py`](/abs/path/C:/Users/Trabalho/Documents/repositorios/pessoal/documentation-gcp-services/gcp_inventory.py:1), a Python script that uses the `gcloud` and `bq` CLIs to inspect a target GCP project and generate a Markdown inventory report.
+The repository centers on [`gcp_inventory.py`](./gcp_inventory.py), a Python script that uses the `gcloud` and `bq` CLIs to inspect a target GCP project and generate a Markdown inventory report.
 
 The generated report includes:
 
@@ -47,7 +47,7 @@ The current implementation collects inventory data for the following resource do
 - Artifact Registry repositories and packages or images
 - IAM service accounts
 
-The exact set of collectors is defined in [`gcp_inventory.py`](/abs/path/C:/Users/Trabalho/Documents/repositorios/pessoal/documentation-gcp-services/gcp_inventory.py:751).
+The exact set of collectors is defined in [`gcp_inventory.py`](./gcp_inventory.py).
 
 ## Execution Model
 
@@ -63,7 +63,7 @@ This design makes the repository easy to extend without requiring a larger appli
 ## Repository Structure
 
 ```text
-documentation-gcp-services/
+gcp-inventory-reference/
 |-- gcp_inventory.py
 |-- requirements.txt
 |-- README.md
@@ -199,7 +199,7 @@ Priority areas:
 - safer edge-case handling
 - better maintainability without over-engineering the repository
 
-See [`CONTRIBUTING.md`](/abs/path/C:/Users/Trabalho/Documents/repositorios/pessoal/documentation-gcp-services/CONTRIBUTING.md:1) for contribution guidelines.
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for contribution guidelines.
 
 ## Positioning Summary
 
